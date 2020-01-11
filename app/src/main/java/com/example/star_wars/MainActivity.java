@@ -1,7 +1,6 @@
-package com.example.resto_searcher;
+package com.example.star_wars;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
