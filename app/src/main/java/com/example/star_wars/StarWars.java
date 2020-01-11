@@ -8,7 +8,7 @@ public class StarWars {
 
     @SerializedName("id")
     @Expose
-    private Integer id;
+    private int id;
 
     @SerializedName("name")
     @Expose
@@ -16,11 +16,11 @@ public class StarWars {
 
     @SerializedName("height")
     @Expose
-    private Double height;
+    private int height;
 
     @SerializedName("mass")
     @Expose
-    private Integer mass;
+    private int mass;
 
     @SerializedName("gender")
     @Expose
@@ -36,13 +36,13 @@ public class StarWars {
     private String image;
     @SerializedName("born")
     @Expose
-    private Integer born;
+    private int born;
     @SerializedName("bornLocation")
     @Expose
     private String bornLocation;
     @SerializedName("died")
     @Expose
-    private Integer died;
+    private int died;
     @SerializedName("diedLocation")
     @Expose
     private String diedLocation;
@@ -106,7 +106,7 @@ public class StarWars {
      * @param apprentices
      * @param height
      */
-    public StarWars(Integer id, String name, Double height, Integer mass, String gender, String homeworld, String wiki, String image, Integer born, String bornLocation, Integer died, String diedLocation, String species, String hairColor, String eyeColor, String skinColor, String cybernetics, List<String> affiliations, List<String> masters, List<String> apprentices, List<Object> formerAffiliations) {
+    public StarWars(int id, String name, int height, int mass, String gender, String homeworld, String wiki, String image, int born, String bornLocation, int died, String diedLocation, String species, String hairColor, String eyeColor, String skinColor, String cybernetics, List<String> affiliations, List<String> masters, List<String> apprentices, List<Object> formerAffiliations) {
         super();
         this.id = id;
         this.name = name;
@@ -131,11 +131,11 @@ public class StarWars {
         this.formerAffiliations = formerAffiliations;
     }
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -147,19 +147,19 @@ public class StarWars {
         this.name = name;
     }
 
-    public Double getHeight() {
+    public int getHeight() {
         return height;
     }
 
-    public void setHeight(Double height) {
+    public void setHeight(int height) {
         this.height = height;
     }
 
-    public Integer getMass() {
+    public int getMass() {
         return mass;
     }
 
-    public void setMass(Integer mass) {
+    public void setMass(int mass) {
         this.mass = mass;
     }
 
@@ -195,11 +195,11 @@ public class StarWars {
         this.image = image;
     }
 
-    public Integer getBorn() {
+    public int getBorn() {
         return born;
     }
 
-    public void setBorn(Integer born) {
+    public void setBorn(int born) {
         this.born = born;
     }
 
@@ -211,11 +211,11 @@ public class StarWars {
         this.bornLocation = bornLocation;
     }
 
-    public Integer getDied() {
+    public int getDied() {
         return died;
     }
 
-    public void setDied(Integer died) {
+    public void setDied(int died) {
         this.died = died;
     }
 
