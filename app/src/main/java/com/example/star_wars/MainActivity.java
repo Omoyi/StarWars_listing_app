@@ -25,8 +25,8 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 public RecyclerView recyclerView;
-public HeroAdapter mAdapter;
-public ArrayList<Datum> mList;
+public Adapter mAdapter;
+public ArrayList<StarConstructor> mList;
 public   String URL_DATA="https://awesome-star-wars-api.herokuapp.com/characters";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,41 +38,14 @@ public   String URL_DATA="https://awesome-star-wars-api.herokuapp.com/characters
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setHasFixedSize(true);
         mList=new ArrayList<>();
-
-
-
-
-
-
-//        loadRecyclerViewData();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
 
 
      public class FetchData extends AsyncTask<Void,Void,Void>{
          @Override
          protected void onPostExecute(Void aVoid) {
              super.onPostExecute(aVoid);
-             mAdapter=new HeroAdapter(mList,getApplicationContext());
+             mAdapter=new Adapter(mList,getApplicationContext());
              recyclerView.setAdapter(mAdapter);
          }
 
@@ -117,7 +90,7 @@ public   String URL_DATA="https://awesome-star-wars-api.herokuapp.com/characters
 
                  for(int i=0;i<array.length();i++){
                      JSONObject o=array.getJSONObject(i);
-                     Datum  hero=new Datum();
+                     StarConstructor hero=new StarConstructor();
                      List<String> aff=null;
 
                      JSONArray array2=o.getJSONArray("affiliations");
@@ -204,7 +177,7 @@ public   String URL_DATA="https://awesome-star-wars-api.herokuapp.com/characters
                      }
 
 
-                    Datum hero1=new Datum();
+                    StarConstructor hero1=new StarConstructor();
 
                      hero1.setAffiliations(aff);
                      hero1.setApprentices(app);
