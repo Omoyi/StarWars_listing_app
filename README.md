@@ -6,19 +6,13 @@
 
 
 ## Table of Contents
+
+- [Personal Information](#personal-information)
 - [Requirements to Run my App](#requirements-to-run-my-app)
-    - [For Android](#for-android)
-    - [For iOS](#for-ios)
 - [Steps to Run](#steps-to-run)
-  - [Windows](#windows)
-  - [macOS](#macos)
 - [Known bugs](#known-bugs)
 - [Technologies used](#technologies-used)
 - [Screenshots of my App](#some-screenshots-of-my-App)
-  - [Homepage](#homepage)
-  - [StarCharacters](#Star-characters)
-  - [Details](#Details)
-- [Personal Information](#personal-information)
 - [License](#license)
 - [Other](#other)
 ___
@@ -59,8 +53,8 @@ ___
 
 ## Known bugs
 
-(1) I wasn't able to show the list of saved characters. 
-(2) I can't edit or change a characters name. 
+(1) I wasn't able to show the list of saved characters due to time.
+(2) I can't edit or change a characters name.
 
 ## Technologies used
 
@@ -74,14 +68,21 @@ ___
 ## Some screenshots of my App
 
   #### Homepage
-  
+
+
+
   #### Stars Character List
-  
+
+      ![](app/src/main/res/drawable/screenhome.png)
+
   #### Details
 
+      ![](app/src/main/res/drawable/detail.png)
+
+
 ## Personal Information
-  * My names: `Uwimana Rachel`
-  * Email: ***Urakhel7@gmail.com***
+  ** My names: `Uwimana Rachel`
+  ** Email: ***Urakhel7@gmail.com***
 ## License
   
   MIT License
