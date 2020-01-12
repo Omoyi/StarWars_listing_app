@@ -68,7 +68,7 @@ ___
 ## Some screenshots of my App
 
 ![](app/main/res/drawable/screenhome)
-<img src="app/main/res/drawable/screenhome.png" width="220" height="240" />
+<img src="../../screenhome.png" width="220" height="240" />
 
 ![Star](../detail.png)
 
