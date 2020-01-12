@@ -72,18 +72,17 @@ ___
 
 
   #### Stars Character List
-
-      ![](app/src/main/res/drawable/screenhome.png)
+  ![](app/src/main/res/drawable/screenhome.png)
 
   #### Details
 
-      ![](app/src/main/res/drawable/detail.png)
+![](app/src/main/res/drawable/detail.png)
 
 
 ## Personal Information
 
-  ** My names: `Uwimana Rachel`
-  ** Email: ***Urakhel7@gmail.com***
+  **My names: `Uwimana Rachel`**
+  **Email: ***Urakhel7@gmail.com*****
 
 ## License
   
