@@ -12,12 +12,12 @@
 - [Steps to Run](#steps-to-run)
   - [Windows](#windows)
   - [macOS](#macos)
-- [Known bugs](#debugging)
+- [Known bugs](#known-bugs)
 - [Technologies used](#technologies-used)
 - [Screenshots of my App](#some-screenshots-of-my-App)
-  - [Scripts](#scripts)
-  - [Reactotron](#reactotron)
-  - [Staging and Continuous Integration](#staging-and-continuous-integration)
+  - [Homepage](#homepage)
+  - [StarCharacters](#Star-characters)
+  - [Details](#Details)
 - [# Personal Information](#default-information)
 - [License](#license)
 - [Other](#other)
@@ -54,31 +54,31 @@ ___
 
 ## Known bugs
 
-(1) put ``debugger`` statement in code  
-(2) debug with "Debug JS Remotely" and a browser  
-  
-*_Note:_* To debug **WebView** or **mobile browser** - use:  
-- for iOS: *Safari/Develop/Simulator...* 
-- for Android: *Chrome/Remote device* and choose emulator/device
-
+(1) I wasn't able to show the list of saved characters. 
+(2) I can't edit or change a characters name. 
 
 ## Technologies used
 
   ### API
    * Used a Rest Api to fetch data provided by Awesomity lab, here is the link `https://awesome-star-wars-api.herokuapp.com/`
   ### Java
-   <small>(Programming language)</small>
+   <small>Programming language</small>
     Designed the app in Java
- ### Android Studio
-    This was my Editor, i used to write my codes
+  ### Android Studio
+    This was my Editor, I used to write my codes
 ## Some screenshots of my App
 
+  ### Homepage
+  
+  ### Stars Character List
+  
+  ### Details
 
-# Personal Information
+## Personal Information
   My names: `Uwimana Rachel`
   Email: ****** Urakhel7@gmail.com
 ## License
 
-## TO YOU
+## End
 
  Thank you for going through my readme if you have any question feel free to contact me through the personal information       provided above 
