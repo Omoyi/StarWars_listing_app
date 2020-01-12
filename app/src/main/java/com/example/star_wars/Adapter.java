@@ -39,7 +39,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.HeroHolder> {
 
         holder.heroName.setText(hero.getName());
 
-        holder.heroId.setText(Integer.toString(hero.getId()));
+        holder.heroId.setText(hero.getBornLocation());
         Glide.with(mActivity)
                 .load(hero.getImage())
                 .into(holder.heroImage);
@@ -49,12 +49,13 @@ public class Adapter extends RecyclerView.Adapter<Adapter.HeroHolder> {
             public void onClick(View v) {
                 String name=mData.get(position).getName();
                 String image=mData.get(position).getImage();
-                String id=Integer.toString(mData.get(position).getId());
+                String bornLocation=mData.get(position).getBornLocation();
+//                String bornLocation=Integer.toString(mData.get(position).getBornLocation());
                 List<String> aff=mData.get(position).getAffiliations();
 
 
                 Intent intent=new Intent(mActivity,Details.class);
-                intent.putExtra("id",id);
+                intent.putExtra("bornLocation",bornLocation);
                 intent.putExtra("name",name);
                 intent.putExtra("image",image);
                 intent.putStringArrayListExtra("aff",(ArrayList<String>)aff);
@@ -77,12 +78,12 @@ public class Adapter extends RecyclerView.Adapter<Adapter.HeroHolder> {
     public class HeroHolder extends RecyclerView.ViewHolder{
 
 
-        ImageView heroImage;
+        de.hdodenhof.circleimageview.CircleImageView heroImage;
         TextView heroName;
         TextView heroId;
         public HeroHolder(@NonNull View itemView) {
             super(itemView);
-            heroImage=(ImageView) itemView.findViewById(R.id.heroImage);
+            heroImage=(de.hdodenhof.circleimageview.CircleImageView) itemView.findViewById(R.id.heroImage);
             heroName=(TextView) itemView.findViewById(R.id.heroName);
             heroId=(TextView)itemView.findViewById(R.id.heroId);
         }

@@ -7,19 +7,36 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="100dp"
-            android:layout_height="150dp"
-            android:layout_gravity="center_horizontal"
-            android:scaleType="centerCrop"
-            android:adjustViewBounds="true"
-            android:id="@+id/heroImage" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
-    </LinearLayout>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/heroImage" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/heroId"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Id"
+                android:textSize="14dp"/>
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/heroName"
@@ -34,16 +51,7 @@
             android:textSize="24dp"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/heroId"
-            android:layout_marginBottom="4dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginTop="8dp"
-            android:text="Id"
-            android:textSize="14dp"/>
+
 
 
     </LinearLayout>
