@@ -3,7 +3,7 @@
  This is a mobile android app that lists star wars characters using a REST API provided by the Awesomity Lab
  and provides additional information as one clicks on a certain character.
 
-
+#### By **Uwimana Rachel**
 
 ## Table of Contents
 
@@ -64,7 +64,7 @@ ___
    <small>Programming language</small>
     Designed the app in Java
   #### Android Studio
-    This was my Editor, I used to write my codes
+    This was my Editor, I used it to write my codes
 ## Some screenshots of my App
 
   #### Homepage
@@ -81,8 +81,10 @@ ___
 
 
 ## Personal Information
+
   ** My names: `Uwimana Rachel`
   ** Email: ***Urakhel7@gmail.com***
+
 ## License
   
   MIT License
