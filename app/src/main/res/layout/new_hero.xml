@@ -35,26 +35,26 @@
                 android:fontFamily="@font/aladin"
                 android:text="Hero name"
                 android:textColor="@android:color/holo_blue_dark"
-                android:textSize="24dp" />
+                android:textSize="19dp" />
 
             <TextView
+                android:id="@+id/heroId"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/heroId"
-                android:layout_marginBottom="4dp"
                 android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/amarante"
-                android:text="Id"
-                android:textSize="24dp"/>
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="4dp"
+                android:fontFamily="@font/bonbon"
+                android:text="None"
+                android:textSize="17dp" />
 
         </LinearLayout>
 
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="12dp"/>
+            android:layout_height="6dp"/>
 
         <View
             android:layout_width="match_parent"
