@@ -18,11 +18,14 @@
   - [Homepage](#homepage)
   - [StarCharacters](#Star-characters)
   - [Details](#Details)
-- [# Personal Information](#default-information)
+- [Personal Information](#personal-information)
 - [License](#license)
 - [Other](#other)
 ___
+
 ## Requirements to Run my-App
+
+
 ### Common 
   * `node 10+` (with `npm 6.4.1`)  
   <small>Last known-to-work NodeJS versions - 10.14.2, 11.5.0, 12.0.7. (`npm rebuild` or `npm install` would be needed because of `react-native-make` if changing node version after initially installing dependencies with `npm install`)</small>
@@ -41,6 +44,8 @@ ___
     * `Xcode 9.4.1`
 
 ## Steps to Run
+
+
 ### Windows
   (1) `git clone https://github.com/Omoyi/StarWars_listing_app.git`  
   (2) `cd <project-folder>` for example `cd C:\projects\Mobile-App`  
@@ -75,10 +80,10 @@ ___
   ### Details
 
 ## Personal Information
-  My names: `Uwimana Rachel`
-  Email: ****** Urakhel7@gmail.com
+  *My names: `Uwimana Rachel`
+  *Email: ***Urakhel7@gmail.com***
 ## License
 
 ## End
 
- Thank you for going through my readme if you have any question feel free to contact me through the personal information       provided above 
+ Thank you for going through my readme if you have any question feel free to contact me through the personal information       provided above.
