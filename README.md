@@ -64,26 +64,36 @@ ___
 
 ## Technologies used
 
-  ### API
+  #### API
    * Used a Rest Api to fetch data provided by Awesomity lab, here is the link `https://awesome-star-wars-api.herokuapp.com/`
-  ### Java
+  #### Java
    <small>Programming language</small>
     Designed the app in Java
-  ### Android Studio
+  #### Android Studio
     This was my Editor, I used to write my codes
 ## Some screenshots of my App
 
-  ### Homepage
+  #### Homepage
   
-  ### Stars Character List
+  #### Stars Character List
   
-  ### Details
+  #### Details
 
 ## Personal Information
-  *My names: `Uwimana Rachel`
-  *Email: ***Urakhel7@gmail.com***
+  * My names: `Uwimana Rachel`
+  * Email: ***Urakhel7@gmail.com***
 ## License
+  
+  MIT License
 
+Copyright (c) [2019] [Uwimana Rachel]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  
 ## End
 
  Thank you for going through my readme if you have any question feel free to contact me through the personal information       provided above.
