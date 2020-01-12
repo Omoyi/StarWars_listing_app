@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">The Star Wars</string>
+    <string name="war_api">https://awesome-star-wars-api.herokuapp.com/characters</string>
+</resources>
