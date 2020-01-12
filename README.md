@@ -39,6 +39,7 @@ ___
 
 ## Steps to Run
 
+I have an Apk file which you can use to upload the app.
 
 ### Windows
   (1) `git clone https://github.com/Omoyi/StarWars_listing_app.git`  
@@ -53,8 +54,9 @@ ___
 
 ## Known bugs
 
-(1) I wasn't able to show the list of saved characters due to time.
+(1) I wasn't able to retrieve the list of saved characters due to time.
 (2) I can't edit or change a characters name.
+(3) My screenshot are not displaying in this readme, you can check in the files of the app
 
 ## Technologies used
 
