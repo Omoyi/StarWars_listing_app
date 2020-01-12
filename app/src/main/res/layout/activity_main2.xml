@@ -7,7 +7,14 @@
     android:background="@drawable/st"
     tools:context="com.example.star_wars.Main2Activity">
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/athiti_medium"
+        android:textSize="29sp"
+        android:text="Welcome"/>
 
 <!--    <LinearLayout-->
 <!--        android:layout_width="match_parent"-->
