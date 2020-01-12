@@ -67,8 +67,8 @@ ___
     This was my Editor, I used it to write my codes
 ## Some screenshots of my App
 
-![Homepage](/src/main/res/drawable/screenhome.png)
-![Star](/src/main/res/drawable/detail.png)
+![Homepage](../screenhome.png)
+![Star](../detail.png)
 
 ## Personal Information
 
