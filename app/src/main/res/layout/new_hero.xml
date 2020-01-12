@@ -26,6 +26,18 @@
             </LinearLayout>
 
             <TextView
+                android:id="@+id/heroName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/aladin"
+                android:text="Hero name"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="24dp" />
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/heroId"
@@ -33,26 +45,21 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="8dp"
+                android:fontFamily="@font/amarante"
                 android:text="Id"
-                android:textSize="14dp"/>
+                android:textSize="24dp"/>
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/heroName"
+
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_marginLeft="16dp"
-            android:layout_weight="1"
-            android:fontFamily="@font/aladin"
-            android:text="Hero name"
-            android:textColor="@color/black"
-            android:textSize="24dp"
-            android:textStyle="bold" />
+            android:layout_height="12dp"/>
 
-
-
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"/>
 
     </LinearLayout>
 

@@ -39,7 +39,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.HeroHolder> {
 
         holder.heroName.setText(hero.getName());
 
-        holder.heroId.setText(hero.getBornLocation());
+        holder.heroId.setText(hero.getHairColor());
         Glide.with(mActivity)
                 .load(hero.getImage())
                 .into(holder.heroImage);
