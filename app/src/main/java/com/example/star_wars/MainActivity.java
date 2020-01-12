@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        final ListView listview = findViewById(R.id.myList);
+        final ListView listview = findViewById(R.id.listview);
 
         Retrofit myRetrofit = new Retrofit.Builder()
                 .baseUrl(SWApi.BASE_URL).addConverterFactory(GsonConverterFactory.create())
