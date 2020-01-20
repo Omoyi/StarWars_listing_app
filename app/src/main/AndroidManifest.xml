@@ -11,10 +11,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main2Activity"></activity>
-        <activity android:name="com.example.star_wars.SavedCharacters"></activity>
-        <activity android:name="com.example.star_wars.SaveActivity" />
-        <activity android:name="com.example.star_wars.Details" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
